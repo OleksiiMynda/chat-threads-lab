@@ -1,0 +1,7 @@
+mode,threads,records,median_ms,lines,broken,lost
+no_lock,8,2000,98.7,16000,13234,13234
+lock,8,2000,59.1,16000,0,0
+lock_flush,8,2000,96.0,16000,0,0
+lock_fsync,8,2000,6122.8,16000,0,0
+open_each,8,2000,4815.6,16000,0,0
+queue_writer,8,2000,32.6,16000,0,0
